@@ -32,7 +32,7 @@ function App() {
         <Container  >
       
           <Nav  className=" py-3  mx-auto" >
-            {/* <Nav.Link as={Link} to="/">Accueil</Nav.Link> */}
+            
             <Nav.Link as={Link} to="/" className='nav-item-title'><FaHotel style={{paddingBottom:"5px"}}/> Formations</Nav.Link>
             <Nav.Link as={Link} to="/experiences" className='nav-item-title'><FaClipboardCheck style={{paddingBottom:"5px"}}/> Experiences</Nav.Link>
             <Nav.Link as={Link} to="/projets" className='nav-item-title'><FaCopy style={{paddingBottom:"5px"}}/> Projets</Nav.Link>
@@ -42,7 +42,7 @@ function App() {
       </Navbar>
 
         <Routes>
-          {/* <Route  path="/" element={<Accueil/>}/> */}
+         
           <Route  path="/" element={<Formations/>}/>
           <Route  path="/certificates" element={<Certificates/>}/>
           <Route  path="/experiences" element={<Experiences/>}/>
